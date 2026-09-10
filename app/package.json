@@ -1,0 +1,60 @@
+{
+  "name": "@forsvn/metaprev",
+  "version": "0.5.0",
+  "description": "Preview, inspect, and repair Open Graph cards locally with actionable validation and copy-ready fixes.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Le Vinh Hung <levinhhungg@gmail.com>",
+  "homepage": "https://github.com/forsvn-labs/metaprev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forsvn-labs/metaprev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/forsvn-labs/metaprev/issues"
+  },
+  "keywords": [
+    "opengraph",
+    "og-image",
+    "og-preview",
+    "social-preview",
+    "twitter-card",
+    "meta-tags",
+    "seo",
+    "cli"
+  ],
+  "bin": {
+    "metaprev": "bin/metaprev.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "scripts": {
+    "dev": "bun bin/metaprev.ts",
+    "test": "bun test",
+    "lint": "oxlint",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "image-size": "^2"
+  },
+  "devDependencies": {
+    "@oxlint/plugins": "1.81.0",
+    "@types/bun": "latest",
+    "oxlint": "1.81.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

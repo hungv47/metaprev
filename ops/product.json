@@ -1,0 +1,16 @@
+{
+  "product": "metaprev",
+  "displayName": "metaprev",
+  "what": "CLI to fetch a URL, parse OG/Twitter tags, validate, and render platform-card mocks",
+  "opsFolder": "./",
+  "primaryRepo": "hungv47/ipse",
+  "publicMirror": "forsvn-labs/metaprev",
+  "npm": "@forsvn/metaprev",
+  "liveUrl": null,
+  "surfaces": [
+    { "type": "cli", "dir": "../app/", "sourceRepo": "hungv47/ipse", "repo": "forsvn-labs/metaprev", "url": "https://github.com/forsvn-labs/metaprev", "marketing": false }
+  ],
+  "brand": { "path": "brand/", "status": "stub", "inherits": "forsvn-house" },
+  "parent": "forsvn-house",
+  "notes": "No dedicated marketing surface yet. Decide on brand vault + landing page once weekly npm downloads justify it."
+}
